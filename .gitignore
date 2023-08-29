@@ -10,6 +10,8 @@
 hs_err_pid*
 replay_pid*
 test-output
+/src/extent-reports
+.html
 
 ##############################
 ## Maven
