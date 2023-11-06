@@ -1,15 +1,12 @@
 [
-    {
-      "username": "user1@email.com",
-      "password": "password123"
-    },
-    {
-      "username": "user2@email.com",
-      "password": "secure456"
-    },
-    {
-      "username": "invalidUser@email.com",
-      "password": "invalidPass"
-    }
-  ]
-  
+  {
+    "username": "SACH-265",
+    "password": "Sach@1331",
+    "email": "nikhil.yadav@india.com"
+  },
+  {
+    "username": "invalidUser",
+    "password": "invalidPass",
+    "email": "invalidUser@email.com"
+  }
+]

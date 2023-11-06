@@ -19,14 +19,14 @@ public class LoginTest extends testdata_loader {
     }
 	
 	@Test(dataProvider = "loginData")
-	public void ValidateLogin(String username, String password) {
+	public void ValidateLogin(String username, String password, String email) {
 		loginPage.signIn(username, password);
 		testLogger.info("Username: "+username+", Password: "+password);
 		testLogger.info("Login completed");
 	}
 	
 	@Test(dataProvider = "loginData")
-	public void testLogin(String username, String password) {
+	public void testLogin(String username, String password, String email) {
 		loginPage.signIn(username, password);
 		testLogger.info("Username: "+username+", Password: "+password);
 		testLogger.fail("Login completed");

@@ -23,7 +23,8 @@ public class testdata_loader extends setup {
                 JSONObject userData = (JSONObject) iterator.next();
                 String username = (String) userData.get("username");
                 String password = (String) userData.get("password");
-                testDataList.add(new Object[]{username, password});
+                String email = (String) userData.get("email");
+                testDataList.add(new Object[]{username, password, email});
             }
         } catch (IOException | ParseException e) {
             e.printStackTrace();
